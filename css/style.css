@@ -201,7 +201,8 @@ body {
     line-height: 30px;
     margin: 20px 0;
     text-align: justify;
-	background-color:#D0F9F9;
+	border-style:dotted;
+	border-color:#ee7575;
 }
 
 .site-footer {
