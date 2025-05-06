@@ -196,6 +196,14 @@ body {
     text-align: justify;
 }
 
+#content .entry-highlight {
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    margin: 20px 0;
+    text-align: justify;
+	background-color:#D0F9F9;
+}
+
 .site-footer {
     background-color: #222;
     color: #fff;
