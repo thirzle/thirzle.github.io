@@ -1,4 +1,5 @@
 /* -- PARALLAX -- */
+ /*4A6B58, 6FAF8C, 94B89E, #8C6FB0, #A093B8, DARK GREEN: 264D37, SEMI DARK GREEN: 28784b OLD: ee7575, OLD LINK: cc5A5A*, OLD SEPARATOR: rgb(204,84,84,0.4)*/
 
 .parallax-title { 
 	padding-top: 10em;
@@ -25,10 +26,20 @@
 }
 
 .site-title {
-    font-family: 'Bree Serif', serif;
-    font-size: 70px;
-    line-height: 1.5;
-	font-weight: 300;
+    /* font-family: 'Bree Serif', serif;*/
+	font-family: 'Poppins', serif;
+    font-size: 50px;
+    line-height: 1.2;
+	font-weight: 500;
+	color: #ffffff;
+    text-decoration: none;
+}
+
+.site-subtitle {
+	font-family: 'Heebo', serif;
+    font-size: 15px;
+    line-height: 1;
+	font-weight: 500;
 	color: #ffffff;
     text-decoration: none;
 }
@@ -49,31 +60,31 @@
 	width:61.8%;
 }
 
-.separator.red {
+.separator.purple {
 	width:38.2%;
-	color: rgb(204,84,84,0.4);
+	color: #A093B8; 
 }
 
 a{
-	color: #ee7575;
+	color: #8566ab;
 }
 a:hover {
-    color: #ee7575;
+    color: #8566ab;
 }
 
 a.active {
-	color: #cc5A5A;
+	color: #8566ab;
 }
 
 a.active:hover {
-    color: #ee7575;
+    color: #8566ab; 
 }
 
 
 #site-navigation a {
     color: #535353;
     display: block;
-    font-family: 'Bree Serif', serif;
+    font-family: 'Poppins', serif;
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 2px;
@@ -108,7 +119,7 @@ h1 {
     margin: 0 0 5px;
     position: relative;
     text-align: left;
-	font-family: 'Bree Serif', serif;
+	font-family: 'Poppins', serif;
     font-weight: normal;
 }
 
@@ -129,7 +140,7 @@ h4 {
     margin: 0 0 5px;
     position: relative;
     text-align: left;
-	font-family: 'Bree Serif', serif;
+	font-family: 'Poppins', serif;
     font-weight: normal;
 }
 
@@ -154,7 +165,9 @@ body {
 .site-header {
     background-position: center center;
     background-size: cover;
+	background-color: #4A6B58;
     position: relative;
+	height: 120px;
 }
 
 .site-header .container {
@@ -173,7 +186,7 @@ body {
 
 .site-branding {
     margin: 0;
-    padding: 60px 0;
+    padding: 15px 0;
     text-align: center;
 }
 
@@ -228,7 +241,7 @@ body {
 }
 code {
     font-size: 87.5%;
-    color: #e83e8c;
+    color: #e83e8c; /*4A6B58, 6FAF8C, 94B89E, #8C6FB0, A093B8, DARK GREEN: 264D37, SEMI DARK GREEN: 28784b OLD: ee7575*/
 	background: #ffffff;
 }
 
@@ -248,7 +261,7 @@ code {
 
 .title-background{
 	width: 50%;
-	background-color: rgb(150, 150, 150, 0.5);
+	background-color: rgb(200, 200, 200, 0.5);
 	margin: auto;
 }
 

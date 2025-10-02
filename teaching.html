@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>Teresa Hirzle</title>
+
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+		<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+		<link rel="shortcut icon" href="img/icon_th.ico" type="image/x-icon"/>
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+		
+		<link href="https://fonts.googleapis.com/css?family=Heebo" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet"> 
+		<script> 
+			$(function(){
+				$("#includeNavigation").load("navigation.html", function() {
+					$("#navTeaching").addClass("active");
+				}); 
+			});
+			$(function(){
+			$("#includeFooter").load("footer.html"); 
+			});
+		</script> 
+
+	</head>
+	<body>
+		
+		<!-- HEADER IMAGE -->
+		<header id="masthead" class="site-header" style="background-image: url('img/header_chi.jpeg')">
+			<div class="container">
+				<div class="site-branding">
+					<div class="title-background">
+						<p class="site-title">Teresa Hirzle</p>
+					</div>
+				</div><!-- .site-branding -->
+			</div><!-- container -->
+			<div class="mask"></div>						
+        </header>
+		<!-- HEADER IMAGE -->
+		
+		<!-- Navigation -->
+		<div id="includeNavigation"></div>
+		<!-- Navigation -->
+  
+		<div id="content" class="container-fluid bg-2">
+			<h1 style="text-align:left">for students&nbsp;</h1>
+			
+			<div class="row entry-summary">
+				<div class="col-sm-12" style="text-align:left">
+					<h4>Courses</h4>
+					<div>
+						<h3>In the current academic year (2024/2025), I am teaching:</h3>
+						<p><a href="https://kurser.ku.dk/course/ndab20008u/2024-2025" target="_blank">Virtual Reality (Bachelor level, block 2)</a></p>
+						<p><a href="https://kurser.ku.dk/course/ndak16004u/2024-2025" target="_blank">Mobile Computing (Master level, block 4)</a></p>
+						<hr class="separator">
+					</div>
+					<h4>Supervision</h4>
+					<div>
+						<h3>tbd</h3>
+						<hr class="separator">
+					</div>
+					<h4>Reading List</h4>
+					<div>
+						<p>This is a list of papers that should give you an idea of what I'm currently interested in. I suggest to have a look at those to see if you're interested in doing a project with me.</p>
+						<h3>General HCI</h3>
+						<p><strong>Research contributions in human-computer interaction.</strong> Jacob O. Wobbrock and Julie A. Kientz. <em>ACM Interactions (2016)</em>. <a href="https://dl.acm.org/doi/abs/10.1145/2907069" target="_blank" data-type="URL" data-id="https://dl.acm.org/doi/abs/10.1145/2907069">https://dl.acm.org/doi/abs/10.1145/2907069</a></p>
+						
+						<h3>Extended Reality</h3>
+						<p><strong>Five canonical findings from 30 years of psychological experimentation in virtual reality.</strong> Jeremy N. Bailenson, Cyan DeVeaux, Eugy Han, David M. Markowitz, Monique Santoso, and Portia Wang. <em>Nature Human Behavior (2025)</em>. <a href="https://www.nature.com/articles/s41562-025-02216-3" target="_blank" data-type="URL" data-id="https://www.nature.com/articles/s41562-025-02216-3">https://www.nature.com/articles/s41562-025-02216-3</a></p>
+						<p><strong>Does Random Movements mean Random Results? Why Asynchrony in Experiments on Body Ownership does not Work as Intended.</strong> Olga Iarygina, Kasper Hornbæk, and Aske Mottelson. <em>CHI (2025)</em>. <a href="https://dl.acm.org/doi/full/10.1145/3706598.3713506", target="_blank", data-type="URL", data-id="https://dl.acm.org/doi/full/10.1145/3706598.3713506">https://dl.acm.org/doi/full/10.1145/3706598.3713506</a></p>
+						<p><strong>The Ethics of Realism in Virtual and Augmented Reality.</strong> Mel Slater, Cristina Gonzalez-Liencres, Patrick Haggard, Charlotte Vinkers, Rebecca Gregory-Clarke1, Steve Jelley, Zillah Watson, Graham Breen, Raz Schwarz, William Steptoe, Dalila Szostak, Shivashankar Halan, Deborah Fox and Jeremy Silver. <em>Frontier Virtual Reality (2020)</em>. <a href="https://doi.org/10.3389/frvir.2020.00001", target="_blank", data-type="URL", data-id="https://doi.org/10.3389/frvir.2020.00001">https://doi.org/10.3389/frvir.2020.00001</a></p>
+						
+						<hr class="separator">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- FOOTER -->
+		<footer class="container-fluid footer">
+			<div id="includeFooter"></div>
+		</footer>
+		<!-- FOOTER -->
+	</body>
+</html>
