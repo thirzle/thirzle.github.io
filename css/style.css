@@ -69,15 +69,15 @@ a{
 	color: #8566ab;
 }
 a:hover {
-    color: #8566ab;
+    color: #644D80;
 }
 
 a.active {
-	color: #8566ab;
+	color: #644D80;
 }
 
 a.active:hover {
-    color: #8566ab; 
+    color: #644D80; 
 }
 
 
@@ -95,15 +95,15 @@ a.active:hover {
 }
 
 #site-navigation a:hover {
-    color: #ee7575;
+    color: #8566ab;
 }
 
 #site-navigation a.active {
-	color: #cc5A5A;
+	color: #644D80;
 }
 
 #site-navigation a.active:hover {
-    color: #ee7575;
+    color: #8566ab;
 }
 
 #site-navigation li {
