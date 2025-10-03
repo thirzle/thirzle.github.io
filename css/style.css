@@ -66,18 +66,18 @@
 }
 
 a{
-	color: #8566ab;
+	color: #ee7575;
 }
 a:hover {
-    color: #644D80;
+    color: #cc5A5A;
 }
 
 a.active {
-	color: #644D80;
+	color: #cc5A5A;
 }
 
 a.active:hover {
-    color: #644D80; 
+    color: #cc5A5A; 
 }
 
 
@@ -95,15 +95,15 @@ a.active:hover {
 }
 
 #site-navigation a:hover {
-    color: #8566ab;
+    color: #ee7575;
 }
 
 #site-navigation a.active {
-	color: #7F61A2;
+	color: #cc5A5A;
 }
 
 #site-navigation a.active:hover {
-    color: #8566ab;
+    color: #ee7575;
 }
 
 #site-navigation li {
