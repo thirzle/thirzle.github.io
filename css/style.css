@@ -264,7 +264,7 @@ code {
 	width: 15%;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 480px) {
 	.portrait{
 		width: 75%;
 	}
@@ -274,7 +274,7 @@ code {
 	width: 22%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
 	.serviceimg{
 		width: 75%;
 	}
