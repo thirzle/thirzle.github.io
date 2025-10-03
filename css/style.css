@@ -65,6 +65,11 @@
 	color: rgb(204,84,84,0.4); 
 }
 
+.separator.red.long {
+	width:100%;
+	color: rgb(204,84,84,0.4); 
+}
+
 a{
 	color: #ee7575;
 }
@@ -120,6 +125,16 @@ h1 {
     position: relative;
     text-align: left;
 	font-family: 'Poppins', serif;
+    font-weight: normal;
+}
+
+h2 {
+    color: #535353;
+    font-size: 16px;
+	line-height: 25px;
+    margin: 0 0 5px;
+    position: relative;
+    text-align: left;
     font-weight: normal;
 }
 
@@ -251,6 +266,16 @@ code {
 
 @media (max-width: 768px) {
 	.portrait{
+		width: 75%;
+	}
+}
+
+.serviceimg{
+	width: 22%;
+}
+
+@media (max-width: 768px) {
+	.serviceimg{
 		width: 75%;
 	}
 }
