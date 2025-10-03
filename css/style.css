@@ -22,7 +22,7 @@
 .navbar-nav.navbar-center {
 	position: absolute;
 	left: 50%;
-	transform: translatex(-50%);
+	transform: translateX(-50%);
 }
 
 .site-title {
@@ -264,7 +264,7 @@ code {
 	width: 15%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
 	.portrait{
 		width: 75%;
 	}
