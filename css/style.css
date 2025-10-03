@@ -1,5 +1,5 @@
 /* -- PARALLAX -- */
- /*4A6B58, 6FAF8C, 94B89E, #8C6FB0, #A093B8, DARK GREEN: 264D37, SEMI DARK GREEN: 28784b OLD: ee7575, OLD LINK: cc5A5A*, OLD SEPARATOR: rgb(204,84,84,0.4)**/
+ /* #4A6B58, #6FAF8C, #94B89E, #8C6FB0, #A093B8, DARK GREEN: #264D37, SEMI DARK GREEN: 28784b OLD: ee7575, OLD LINK: cc5A5A*, OLD SEPARATOR: rgb(204,84,84,0.4)**/
 
 .parallax-title { 
 	padding-top: 10em;
@@ -219,7 +219,7 @@ body {
 }
 
 .site-footer {
-    background-color: #222;
+    background-color: #7C8F84;
     color: #fff;
     margin-top: 80px;
     overflow: hidden;
@@ -227,7 +227,7 @@ body {
 }
 
 .site-footer .copyright {
-    color: #999;
+    color: #fff;
     font-size: 12px;
     font-weight: 400;
     letter-spacing: 1px;
