@@ -60,9 +60,9 @@
 	width:61.8%;
 }
 
-.separator.purple {
+.separator.red {
 	width:38.2%;
-	color: #A093B8; 
+	color: rgb(204,84,84,0.4); 
 }
 
 a{
