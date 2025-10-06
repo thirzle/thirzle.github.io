@@ -269,11 +269,6 @@ code {
 }
 
 @media (max-width: 1365px) {
-	.navbar-nav.navbar-center {
-	left: 45%;
-}
-
-@media (max-width: 1200px) {
 	.portrait{
 		width: 75%;
 	}
