@@ -170,6 +170,7 @@ h5 {
 }
 
 body {
+	padding-top: 70px;
     background-color: #fff;
     color: #595959;
     font-family: 'Heebo', sans-serif;
