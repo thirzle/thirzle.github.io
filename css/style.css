@@ -264,17 +264,14 @@ code {
 	width: 15%;
 }
 
-@media (max-width: 480px) {
-	.portrait{
-		width: 75%;
-	}
-}
-
 .serviceimg{
 	width: 22%;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 1200px) {
+	.portrait{
+		width: 75%;
+	}
 	.serviceimg{
 		width: 75%;
 	}
