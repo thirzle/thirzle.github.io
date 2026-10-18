@@ -550,7 +550,8 @@ ul.selected-pubs li:last-child {
 }
 
 a.pub-thumb {
-	flex: 0 0 240px;
+	flex: 0 0 180px;
+	max-width: 180px;
 	text-decoration: none;
 }
 
@@ -579,5 +580,6 @@ a.pub-thumb:hover img {
 	a.pub-thumb {
 		flex-basis: auto;
 		width: 100%;
+		max-width: 320px;
 	}
 }
