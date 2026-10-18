@@ -1,5 +1,5 @@
 /* Teresa Hirzle — site styles (modernised 2026-10). Previous version: ../_original_2026-10-18/css/style.css */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap');
 
 :root {
 	--accent: #008060;        /* links, dates, active menu item (contrast 4.9:1 on white) */
@@ -341,7 +341,7 @@ ul.selected-pubs li {
 }
 
 /* -- RESPONSIVE -- */
-@media (max-width: 1365px) {
+@media (max-width: 991px) {
 	.portrait {
 		width: 160px;
 	}
@@ -445,4 +445,139 @@ footer.container-fluid.footer {
 /* icon links (Scholar, ResearchGate, ...) without underline */
 a:has(> img) {
 	text-decoration: none;
+}
+
+/* -- HEADER BAR (2026-10): name left, menu right, replaces the green banner -- */
+#site-navigation .container {
+	max-width: 1000px;
+}
+
+#site-navigation a.site-brand {
+	float: left;
+	color: var(--header-bg);
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: -0.01em;
+	line-height: 56px;
+	text-transform: none;
+	border-bottom: 0;
+}
+
+#site-navigation a.site-brand:hover {
+	color: var(--accent);
+}
+
+#site-navigation .navbar-right {
+	margin-right: 0;
+}
+
+#site-navigation .navbar-toggle {
+	margin-top: 11px;
+	margin-bottom: 11px;
+	border-color: var(--border);
+}
+
+#site-navigation .navbar-toggle .icon-bar {
+	background-color: var(--text-muted);
+}
+
+#content {
+	padding-top: 48px;
+}
+
+/* -- PERSONAL TOUCH (2026-10): serif headings + warm coral accent from the original site -- */
+:root {
+	--font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
+	--warm: #C44D4D;          /* coral, darkened for readable text (contrast 4.6:1) */
+	--warm-soft: #F7E3E1;
+}
+
+#site-navigation a.site-brand {
+	font-family: var(--font-display);
+	font-size: 23px;
+	font-weight: 600;
+	letter-spacing: 0;
+}
+
+h1, h4 {
+	font-family: var(--font-display);
+	font-weight: 600;
+	letter-spacing: 0;
+}
+
+h1 {
+	font-size: 34px;
+}
+
+.news-date {
+	color: var(--warm);
+}
+
+a:hover, a:focus {
+	color: var(--warm);
+	text-decoration-color: currentColor;
+}
+
+#site-navigation a:hover {
+	color: var(--warm);
+}
+
+#site-navigation a.site-brand:hover {
+	color: var(--header-bg);
+}
+
+ul.selected-pubs li {
+	border-left-color: var(--warm-soft);
+}
+
+.subheading {
+	color: var(--warm);
+}
+
+/* -- PUBLICATION TEASERS (2026-10) -- */
+ul.selected-pubs li {
+	display: flex;
+	align-items: flex-start;
+	gap: 20px;
+	padding: 0 0 18px;
+	margin-bottom: 18px;
+	border-left: 0;
+	border-bottom: 1px solid var(--border);
+}
+
+ul.selected-pubs li:last-child {
+	border-bottom: 0;
+}
+
+a.pub-thumb {
+	flex: 0 0 240px;
+	text-decoration: none;
+}
+
+a.pub-thumb img {
+	width: 100%;
+	height: auto;
+	border-radius: 6px;
+	border: 1px solid var(--border);
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+a.pub-thumb:hover img {
+	transform: translateY(-2px);
+	box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.pub-text {
+	flex: 1;
+}
+
+@media (max-width: 600px) {
+	ul.selected-pubs li {
+		flex-direction: column;
+		gap: 10px;
+	}
+	a.pub-thumb {
+		flex-basis: auto;
+		width: 100%;
+	}
 }
