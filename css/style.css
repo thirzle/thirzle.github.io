@@ -583,3 +583,34 @@ a.pub-thumb:hover img {
 		max-width: 320px;
 	}
 }
+
+
+/* Course previews on the teaching page */
+.course-previews {
+	margin-top: 10px;
+}
+
+a.course-preview {
+	display: block;
+	margin-bottom: 10px;
+	text-decoration: none;
+}
+
+a.course-preview img {
+	width: 100%;
+	height: auto;
+	border-radius: 6px;
+	border: 1px solid var(--border);
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+a.course-preview:hover img {
+	transform: translateY(-2px);
+	box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+@media (max-width: 767px) {
+	.course-previews .col-sm-6 + .col-sm-6 {
+		margin-top: 15px;
+	}
+}
